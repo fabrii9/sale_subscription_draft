@@ -8,7 +8,9 @@
     'depends': [
         'sale_subscription',
     ],
-    'data': [],
+    'data': [
+        'views/sale_order_views.xml',
+    ],
     'auto_install': False,
     'installable': True,
     'application': False,
